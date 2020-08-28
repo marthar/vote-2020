@@ -1,0 +1,50 @@
+body {
+
+    background: linear-gradient(268deg, #0ddff0, #eff00d, #f00dd8);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 14s ease infinite;
+    -moz-animation: AnimationName 14s ease infinite;
+    animation: AnimationName 14s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
+
+h1, h2 {
+  font-family: 'Oswald', sans-serif;
+  margin:0;
+  padding:0;
+  text-align:center;
+}
+
+header {
+  height:100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 25.5vw;
+  line-height:1.2em;
+}
+
+h2 {
+  font-size: 5vw;
+}
+
+a {  color:black}
